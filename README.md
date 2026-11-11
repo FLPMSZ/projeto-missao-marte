@@ -1,4 +1,3 @@
-Markdown
 # Missão Marte: ECLSS
 
 [![Pipeline Missão Marte ECLSS](https://github.com/FLPMSZ/projeto-missao-marte/actions/workflows/pipeline.yml/badge.svg)](https://github.com/FLPMSZ/projeto-missao-marte/actions)
