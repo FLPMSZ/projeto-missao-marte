@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel ControleWeb</title>
+</head>
+<body>
+    <h2>Solicitacao de Oxigenio Extra</h2>
+    <input type="number" id="qtd_oxigenio" />
+    <button id="btn_solicitar" onclick="solicitarCota()">Solicitar</button>
+    <div id="status_painel"></div>
+    <script>
+        function solicitarCota() {
+            document.getElementById('status_painel').innerText = "Processando...";
+            setTimeout(() => {
+                document.getElementById('status_painel').innerText = "Solicitação Aprovada";
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
