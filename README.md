@@ -4,11 +4,15 @@
 
 ## Execução Local
 
-1. Instale as dependências:
-`pip install -r requirements.txt`
+### - Clone o repositório:
 
-2. Execute a suíte de testes:
-`pytest`
+git clone [https://github.com/FLPMSZ/projeto-missao-marte.git](https://github.com/FLPMSZ/projeto-missao-marte.git)
 
-3. Relatório de cobertura:
-`pytest --cov=src`
+### - Instale as dependências
+pip install -r requirements.txt
+
+### - Execute a suíte de testes
+pytest
+
+### - Relatório de cobertura
+pytest --cov=src
